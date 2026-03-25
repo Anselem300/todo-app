@@ -51,5 +51,5 @@ The programming language used is **JavaScript**, which runs in the browser envir
 * [YouTube JavaScript Tutorials](https://www.youtube.com/results?search_query=javascript+beginner+tutorial) – Helpful for understanding JavaScript concepts  
 
 {Make a list of websites that you found helpful in this project}
-* [BYU I Learn Material](https://byui-cse.github.io/cse310-ww-course/week01/activity_portfolio.html)  
+* [BYU I Learn Material](https://byui-cse.github.io/cse310-ww-course/modules/module_descriptions.html)  
 * [Day.js Documentation](https://day.js.org/)  
