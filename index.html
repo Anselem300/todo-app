@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced To-Do App</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="icon" type="image/jpg" href="images/todo.jpg">
+
+  <!-- Day.js Library -->
+  <script src="https://unpkg.com/dayjs@1.11.10/dayjs.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>To-Do List</h1>
+
+    <!-- ✅ Inline Notification (correct position) -->
+    <div id="notification" class="notification"></div>
+
+    <input type="text" id="taskInput" placeholder="Enter a task">
+
+    <select id="category">
+      <option value="Work">Work</option>
+      <option value="Personal">Personal</option>
+      <option value="School">School</option>
+    </select>
+
+    <button onclick="addTask()">Add Task</button>
+
+    <div class="filters">
+      <button onclick="filterTasks('all')">All</button>
+      <button onclick="filterTasks('active')">Active</button>
+      <button onclick="filterTasks('completed')">Completed</button>
+    </div>
+
+    <button class="clear-btn" onclick="clearCompleted()">Clear Completed</button>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="scripts/scripts.js"></script>
+  <footer>All Rights Reserved | © 2026</footer>
+</body>
+</html>
